@@ -14,7 +14,7 @@
 required <- c("MASS", "mvtnorm", "ggplot2")
 for (pkg in required) {
   if (!requireNamespace(pkg, quietly = TRUE)) {
-    install.packages(pkg, repos = "https://cloud.r-project.org")
+    install.packages(pkg)
   }
 }
 suppressPackageStartupMessages({
